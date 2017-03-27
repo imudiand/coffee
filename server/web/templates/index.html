@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="PourKarma" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dark.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/font-icons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='include/rs-plugin/css/settings.css', media='screen') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='include/rs-plugin/css/layers.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='include/rs-plugin/css/navigation.css') }}">
+
+	<!-- Document Title
+	============================================= -->
+	<title>Home - PourKarma</title>
+
+	<style>
+
+		.revo-slider-emphasis-text {
+			font-size: 64px;
+			font-weight: 700;
+			letter-spacing: -1px;
+			font-family: 'Raleway', sans-serif;
+			padding: 15px 20px;
+			border-top: 2px solid #FFF;
+			border-bottom: 2px solid #FFF;
+		}
+
+		.revo-slider-desc-text {
+			font-size: 20px;
+			font-family: 'Lato', sans-serif;
+			width: 650px;
+			text-align: center;
+			line-height: 1.5;
+		}
+
+		.revo-slider-caps-text {
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 3px;
+			font-family: 'Raleway', sans-serif;
+		}
+		.tp-video-play-button { display: none !important; }
+
+		.tp-caption { white-space: nowrap; }
+
+	</style>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<section id="slider" class="slider-parallax revslider-wrap full-screen clearfix">
+
+			<!--
+			#################################
+				- THEMEPUNCH BANNER -
+			#################################
+			-->
+			<div class="tp-banner-container">
+				<div class="tp-banner" >
+					<ul>    <!-- SLIDE  -->
+						<li class="dark" data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="{{ url_for('static', filename='images/restaurant/slider/coffee2.jpg') }}" data-delay="12000"  data-saveperformance="off" data-title="Delicious Recipes">
+							<!-- MAIN IMAGE -->
+							<img src="{{ url_for('static', filename='images/restaurant/slider/coffee2.jpg') }}" alt="PourKarma" data-bgposition="left center" data-kenburns="on" data-duration="12000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-bgpositionend="right center">
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text uppercase"
+							data-x="600"
+							data-y="215"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1000"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3; color: #FFF;">For' Karma</div>
+
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-emphasis-text nopadding noborder"
+							data-x="597"
+							data-y="230"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1200"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3; font-size: 80px; color: #FFF;">Pour Karma<a href="#" class="standard-logo" data-dark-logo="{{ url_for('static', filename='images/Beanslogo.png') }}"><img src="{{ url_for('static', filename='images/Beanslogo.png') }}" alt="PourKarma Logo"></a></div>
+
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text tleft"
+							data-x="600"
+							data-y="340"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1400"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3; max-width: 550px; color: #FFF; white-space: normal;">Organic fairly-traded Artisan coffee sourced worldwide and delivered farm to table.</div>
+
+							<div class="tp-caption customin ltl tp-resizeme"
+							data-x="600"
+							data-y="450"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1550"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3;"><a href="https://www.facebook.com/pg/PourKarma/jobs/1861166514155523" class="button button-3d button-black button-large button-rounded tright nomargin" style="color: #F00;"><span>We are Hiring. Apply Now!</span> <i class="icon-angle-right"></i></a></div>
+
+						</li>
+						<!-- SLIDE  -->
+						<li data-transition="slidedown" data-slotamount="1" data-masterspeed="1500" data-thumb="{{ url_for('static', filename='images/restaurant/slider/plucker.jpg') }}" data-delay="10000"  data-saveperformance="off"  data-title="Book your Tables">
+							<!-- MAIN IMAGE -->
+                            <img src="{{ url_for('static', filename='images/restaurant/slider/plucker.jpg') }}" alt="PourKarma" data-bgposition="center top" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="120" data-scaleend="100" data-bgpositionend="center center">
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text uppercase"
+							data-x="0"
+							data-y="215"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1000"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3; color: #FFF;">Ethical coffee production</div>
+
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-emphasis-text nopadding noborder"
+							data-x="-3"
+							data-y="230"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1200"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3; color: #FFF; font-size: 60px;">Empowering Farmers</div>
+
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text tleft"
+							data-x="0"
+							data-y="340"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1400"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3; color: #FFF; max-width: 550px; white-space: normal;">We collaborate with farmer's and cooperatives to uplift communities & foster growth in villages</div>
+
+							<div class="tp-caption customin ltl tp-resizeme"
+							data-x="0"
+							data-y="450"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1550"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3;"><a href="https://www.facebook.com/pg/PourKarma/jobs/1861166514155523" class="button button-3d button-black button-large button-rounded tright nomargin" style="color: #F00;"> <span>We are Hiring. Apply Now!</span> <i class="icon-angle-right"></i></a></div>
+
+						</li>
+						<!-- SLIDE  -->
+						<li class="dark" data-transition="slideleft" data-slotamount="1" data-masterspeed="1500" data-thumb="{{ url_for('static', filename='images/restaurant/slider/cups.jpg') }}" data-delay="12000"  data-saveperformance="off"  data-title="Full Featured Menu">
+							<!-- MAIN IMAGE -->
+                            <img src="{{ url_for('static', filename='images/restaurant/slider/cups.jpg') }}" alt="PourKarma" data-bgposition="left top" data-kenburns="on" data-duration="12000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-bgpositionend="right bottom">
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text uppercase"
+							data-x="440"
+							data-y="215"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1000"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3;">Wide Array of Options</div>
+
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-emphasis-text nopadding noborder"
+							data-x="287"
+							data-y="230"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1200"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3;">Rich Flavors & Aroma</div>
+
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text"
+							data-x="245"
+							data-y="340"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1400"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3; max-width: 650px; white-space: normal;"> Unparalleled flavors & aroma in every bean. Singular craft roasts.</div>
+
+							<div class="tp-caption customin ltl tp-resizeme"
+							data-x="496"
+							data-y="450"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1550"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3;"><a href="https://www.facebook.com/pg/PourKarma/jobs/1861166514155523" class="button button-3d button-black button-large button-rounded tright nomargin" style="color: #F00;"> <span>We are Hiring. Apply Now!</span> <i class="icon-angle-right"></i></a></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</section>
+
+		<!-- Header
+		============================================= -->
+		<header id="header">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="#" class="standard-logo" data-dark-logo="{{ url_for('static', filename='images/Beanslogo.png') }}"><img src="{{ url_for('static', filename='images/Beanslogo.png') }}" alt="PourKarma Logo"></a>
+						<a href="#" class="retina-logo" data-dark-logo="{{ url_for('static', filename='images/Beanslogo.png') }}"><img src="{{ url_for('static', filename='images/Beanslogo.png') }}" alt="PourKarma Logo"></a>
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu" class="style-5">
+
+						<ul class="norightborder norightpadding norightmargin">
+							<li><a href="#home"><div><i class="icon-home2"></i>Home</div></a></li>
+                            <li><a href="#why-us"><div><i class="icon-picture"></i>Why Us?</div></a></li>
+                            <li><a href="#jobs"><div><i class="icon-file-alt"></i>Jobs</div></a></li>
+							<li><a href="#team"><div><i class="icon-users2"></i>Team</div></a></li>
+							<li><a href="#reviews"><div><i class="icon-star3"></i>Reviews</div></a></li>
+                            <li><a href="#"><div><i class="icon-pencil2"></i>Blog</div></a></li>
+							<li><a href="#team"><div><i class="icon-map-marker2"></i>Contact</div></a></li>
+						</ul>
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<div class="clear"></div>
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap">
+
+				<div id="why-us" class="container clearfix">
+
+					<div class="col_one_third nobottommargin">
+						<div class="feature-box media-box">
+							<div class="fbox-media">
+								<img src="{{ url_for('static', filename='images/restaurant/fairlytraded.jpg') }}" alt="Why choose Us?">
+							</div>
+							<div class="fbox-desc">
+								<h3>Ethical Fair-trade Coffee<span class="subtitle">Empowering farmers & uplifting communities worldwide.</span></h3>
+								<p>Speciality beans directly from farmers at prices way above commodity coffee. Equitable wealth to farmers. Great product & fair prices to consumers</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col_one_third nobottommargin">
+						<div class="feature-box media-box">
+							<div class="fbox-media">
+								<img src="{{ url_for('static', filename='images/restaurant/greenbrowncofee.jpg') }}" alt="Why choose Us?">
+							</div>
+							<div class="fbox-desc">
+								<h3>Craft Artisan Roasts <span class="subtitle">Unique roast profiles. Infinite cupping sessions. Varying drying patterns.</span></h3>
+								<p>Speciality beans from around the world grown in varying soil & climatic conditions. We experiement with different drying patterns, a multitude of roast profiles and cupping</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col_one_third nobottommargin col_last">
+						<div class="feature-box media-box">
+							<div class="fbox-media">
+								<img src="{{ url_for('static', filename='images/restaurant/coffeecup.jpg') }}" alt="Why choose Us?">
+							</div>
+							<div class="fbox-desc">
+								<h3>Shade grown Organic Beans<span class="subtitle">Single-origin and unparalleled blends from around the world.</span></h3>
+								<p>Speciality blends & single-estate shade-grown coffee from the best coffee growing regions, processed in small batches for rich flavors, utmost freshness & aroma</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="clear"></div>
+
+				</div>
+
+				<div id="home" class="section dark bottommargin-lg" style="height: 500px;">
+					<div class="container center clearfix vertical-middle">
+
+						<i class="i-plain i-xlarge icon-coffee2 divcenter bottommargin"></i>
+
+						<div class="slider-caption slider-caption-center">
+							<h2 data-animate="fadeInUp">Pour Karma</h2>
+							<p data-animate="fadeInUp" data-delay="200">"Pour Karma (means 'For Karma' in French) empowers farmers worldwide! Join us. Earn Karma points with every cuppa coffee you Pour!"</p>
+						</div>
+
+					</div>
+					<div class="video-wrap">
+						<video poster="{{ url_for('static', filename='images/videos/explore.jpg') }}" preload="auto" loop autoplay muted>
+							<source src="{{ url_for('static', filename='images/videos/explore.mp4') }}" type='video/mp4' />
+							<source src="{{ url_for('static', filename='images/videos/explore.webm') }}" type='video/webm' />
+						</video>
+						<div class="video-overlay" style="background-color: rgba(0,0,0,0.35);"></div>
+					</div>
+				</div>
+
+				<div class="container clearfix">
+
+					<div class="col_one_fourth nobottommargin">
+						<div class="feature-box fbox-center fbox-plain nobottomborder">
+							<div class="fbox-icon">
+								<a href="#"><img src="{{ url_for('static', filename='images/icons/restaurant/cup.png') }}" alt="Icon" data-animate="zoomIn"></a>
+							</div>
+							<h3>Big Impact on farmers & cooperatives</h3>
+						</div>
+					</div>
+
+					<div class="col_one_fourth nobottommargin">
+						<div class="feature-box fbox-center fbox-plain nobottomborder">
+							<div class="fbox-icon">
+								<a href="#"><img src="{{ url_for('static', filename='images/icons/restaurant/tea.png') }}" alt="Icon" data-animate="zoomIn" data-delay="200"></a>
+							</div>
+							<h3>Highest Quality for our consumers</h3>
+						</div>
+					</div>
+
+					<div class="col_one_fourth nobottommargin">
+						<div class="feature-box fbox-center fbox-plain nobottomborder">
+							<div class="fbox-icon">
+								<a href="#"><img src="{{ url_for('static', filename='images/icons/restaurant/fork.png') }}" alt="Icon" data-animate="zoomIn" data-delay="400"></a>
+							</div>
+							<h3>Speciality Roast & Grind Profiles</h3>
+						</div>
+					</div>
+
+					<div class="col_one_fourth nobottommargin col_last">
+						<div class="feature-box fbox-center fbox-plain nobottomborder">
+							<div class="fbox-icon">
+								<a href="#"><img src="{{ url_for('static', filename='images/icons/restaurant/glass.png') }}" alt="Icon" data-animate="zoomIn" data-delay="600"></a>
+							</div>
+							<h3>Big commissions for employees</h3>
+						</div>
+					</div>
+
+					<div class="clear"></div>
+
+				</div>
+
+                <div id="jobs" class="section nobg topmargin-sm nobottommargin">
+                    <section id="section-jobs" class="page-section topmargin-lg">
+                        <div class="heading-block center">
+                            <h2>We are Hiring!</h2>
+                        </div>
+
+                        <div class="container clearfix">
+                            <div class="col-md-12 nobottommargin">
+                                <div class="nobottommargin">
+                                    <div class="heading-block" style="padding-top: 40px;">
+                                        <h2>Sales Manager.</h2>
+                                        <span>Positions available: Worldwide</span>
+                                    </div>
+                                    <p style="font-size: 16px; font-family: 'Lato', sans-serif;">
+                                    We are looking for stellar Sales Managers willing to run sales of our single-origin, organic, fairly traded coffee to restaurants, cafes, businesses and startups across the US. 
+                                    <br/>
+                                    With commissions upto 30%; a single deal can fetch $1000's. As a reference, for a restaurant that purchases $100,000 of coffee/tea per year, you stand to <strong>make $30,000 on that single deal.</strong> 
+                                    <br/><br/>
+
+                                    <strong>Requirements:</strong><br/>
+                                    We seek individuals with awesome sales acumen, good presentation skills and an unwilling attitude to excel. Someone who is good with using social media & online tools for viral marketing & sales would be an ideal fit. 
+
+                                    </p>
+                                    <a href="https://www.facebook.com/pg/PourKarma/jobs/1861166514155523" class="button button-border button-large button-rounded topmargin-sm noleftmargin">Apply Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>  
+                </div>
+
+                <div id="team" class="section nobg notopmargin bottommargin-sm">
+                    <section id="section-team" class="page-section topmargin-lg">
+                        <div class="heading-block center">
+                            <h2>Our Team</h2>
+                        </div>
+
+                        <div class="container clearfix">
+
+                            <div class="col-md-6 bottommargin">
+
+                                <div class="team team-list clearfix">
+                                    <div class="team-image">
+                                        <img src="{{ url_for('static', filename='images/team/8.jpg') }}" alt="Priscilla Dover">
+                                    </div>
+                                    <div class="team-desc">
+                                        <div class="team-title"><h4>Sharry I.</h4><span>Chief Executive Officer</span></div>
+                                        <div class="team-content"></div>
+                                        <a href="https://facebook.com/pourkarma" class="social-icon si-rounded si-small si-facebook">
+                                            <i class="icon-facebook"></i>
+                                            <i class="icon-facebook"></i>
+                                        </a>
+                                        <a href="#" class="social-icon si-rounded si-small si-twitter">
+                                            <i class="icon-twitter"></i>
+                                            <i class="icon-twitter"></i>
+                                        </a>
+                                        <a href="#" class="social-icon si-rounded si-small si-gplus">
+                                            <i class="icon-gplus"></i>
+                                            <i class="icon-gplus"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6 bottommargin">
+
+                                <div class="team team-list clearfix">
+                                    <div class="team-image">
+                                        <img src="{{ url_for('static', filename='images/team/4.jpg') }}" alt="Nix Maxwell">
+                                    </div>
+                                    <div class="team-desc">
+                                        <div class="team-title"><h4>Nix Maxwell</h4><span>Founder. Chief Investor</span></div>
+                                        <div class="team-content"></div>
+                                        <a href="#" class="social-icon si-rounded si-small si-forrst">
+                                            <i class="icon-forrst"></i>
+                                            <i class="icon-forrst"></i>
+                                        </a>
+                                        <a href="#" class="social-icon si-rounded si-small si-skype">
+                                            <i class="icon-skype"></i>
+                                            <i class="icon-skype"></i>
+                                        </a>
+                                        <a href="#" class="social-icon si-rounded si-small si-flickr">
+                                            <i class="icon-flickr"></i>
+                                            <i class="icon-flickr"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="clear"></div>
+
+                            <div class="col-md-6 bottommargin">
+
+                                <div class="team team-list clearfix">
+                                    <div class="team-image">
+                                        <img src="{{ url_for('static', filename='images/team/9.jpg') }}" alt="Mary Jones">
+                                    </div>
+                                    <div class="team-desc">
+                                        <div class="team-title"><h4>Mary Jones</h4><span>Global Sales Head</span></div>
+                                        <div class="team-content"></div>
+                                        <a href="#" class="social-icon si-rounded si-small si-dribbble">
+                                            <i class="icon-dribbble"></i>
+                                            <i class="icon-dribbble"></i>
+                                        </a>
+                                        <a href="#" class="social-icon si-rounded si-small si-twitter">
+                                            <i class="icon-twitter"></i>
+                                            <i class="icon-twitter"></i>
+                                        </a>
+                                        <a href="#" class="social-icon si-rounded si-small si-github">
+                                            <i class="icon-github"></i>
+                                            <i class="icon-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6 bottommargin">
+
+                                <div class="team team-list clearfix">
+                                    <div class="team-image">
+                                        <img src="{{ url_for('static', filename='images/team/3.jpg') }}" alt="Josh Clark">
+                                    </div>
+                                    <div class="team-desc">
+                                        <div class="team-title"><h4>Josh Clark</h4><span>Chief Operating Officer</span></div>
+                                        <div class="team-content"></div>
+                                        <a href="https://facebook.com/pourkarma" class="social-icon si-rounded si-small si-facebook">
+                                            <i class="icon-facebook"></i>
+                                            <i class="icon-facebook"></i>
+                                        </a>
+                                        <a href="#" class="social-icon si-rounded si-small si-linkedin">
+                                            <i class="icon-linkedin"></i>
+                                            <i class="icon-linkedin"></i>
+                                        </a>
+                                        <a href="#" class="social-icon si-rounded si-small si-twitter">
+                                            <i class="icon-twitter"></i>
+                                            <i class="icon-twitter"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="clear"></div>
+
+                        </div>
+                    </section>  
+                </div>
+
+
+
+				<div class="section parallax noborder dark footer-stick topmargin-lg" style="background-image: url({{ url_for('static', filename='images/restaurant/malu6.jpg')}}); padding: 80px 0;" data-stellar-background-ratio="0.3">
+					<div class="container clearfix">
+						<div class="col_three_fifth nobottommargin">
+
+							<div id="reviews" class="heading-block nobottomborder">
+								<h3>Reviews</h3>
+							</div>
+
+							<div class="fslider restaurant-reviews" data-arrows="false" data-animation="slide">
+								<div class="flexslider">
+									<div class="slider-wrap">
+										<div class="slide">
+                                            <p class="lead">"Examplary Social innovation: Great commissions to employees. Bringing new hope to farmers."</p>
+											<span><strong>John Dover</strong>, Bon Appetite Magazine</span><br>
+											<i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i>
+										</div>
+										<div class="slide">
+											<p class="lead">"Irresistable! Their roasting techniques, cupping experience & shade-grown beans are simply irresistable"</p>
+											<span><strong>Mary Jacobs</strong>, Los Angeles Times News</span><br>
+											<i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i>
+										</div>
+										<div class="slide">
+                                            <p class="lead">"Ethically sourced organic coffee - pour some karma into your daily cup of joe!"</p>
+                                            <span><strong>Luis Frank</strong>, San Francisco</span><br>
+											<i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-half-full"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<style>
+								.restaurant-reviews .flex-control-nav {
+									top: auto;
+									bottom: 25px;
+								}
+							</style>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+
+				<div class="container clearfix">
+
+					<div class="col_half">
+						Copyrights &copy; 2017 All Rights Reserved by PourKarma.
+					</div>
+
+					<div class="col_half col_last tright">
+						<div class="fright clearfix">
+							<a href="https://www.facebook.com/PourKarma" class="social-icon si-small si-borderless si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+
+							<a href="https://www.twitter.com/PourKarma" class="social-icon si-small si-borderless si-twitter">
+								<i class="icon-twitter"></i>
+								<i class="icon-twitter"></i>
+							</a>
+
+							<a href="https://www.google.com/pourkarmacoffee" class="social-icon si-small si-borderless si-gplus">
+								<i class="icon-gplus"></i>
+								<i class="icon-gplus"></i>
+							</a>
+
+							<a href="https://www.pinterest.com/PourKarma" class="social-icon si-small si-borderless si-pinterest">
+								<i class="icon-pinterest"></i>
+								<i class="icon-pinterest"></i>
+							</a>
+
+							<a href="https://www.linkedin.com/PourKarma" class="social-icon si-small si-borderless si-linkedin">
+								<i class="icon-linkedin"></i>
+								<i class="icon-linkedin"></i>
+							</a>
+						</div>
+
+						<div class="clear"></div>
+
+					</div>
+
+				</div>
+
+			</div><!-- #copyrights end -->
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- External JavaScripts
+	============================================= -->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/plugins.js') }}"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/functions.js') }}"></script>
+
+	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
+    <script type="text/javascript" src="{{ url_for('static', filename='include/rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='include/rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='include/rs-plugin/js/extensions/revolution.extension.video.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='include/rs-plugin/js/extensions/revolution.extension.actions.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='include/rs-plugin/js/extensions/revolution.extension.navigation.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='include/rs-plugin/js/extensions/revolution.extension.parallax.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='include/rs-plugin/js/extensions/revolution.extension.migration.min.js') }}"></script>
+
+	<script type="text/javascript">
+
+		var tpj=jQuery;
+		tpj.noConflict();
+
+		tpj(document).ready(function() {
+
+			var apiRevoSlider = tpj('.tp-banner').show().revolution(
+			{
+				sliderType:"standard",
+				jsFileLocation:"include/rs-plugin/js/",
+				dottedOverlay:"none",
+				delay:16000,
+				startwidth:1140,
+				startheight:600,
+				hideThumbs:200,
+
+				thumbWidth:100,
+				thumbHeight:50,
+				thumbAmount:5,
+
+				navigation: {
+                    keyboardNavigation: "on",
+                    keyboard_direction: "horizontal",
+                    mouseScrollNavigation: "off",
+                    onHoverStop: "off",
+                    touch: {
+                        touchenabled: "on",
+                        swipe_threshold: 75,
+                        swipe_min_touches: 1,
+                        swipe_direction: "horizontal",
+                        drag_block_vertical: false
+                    },
+                    thumbnails: {
+                        style: "hesperiden",
+                        enable: true,
+                        width: 100,
+                        height: 50,
+                        min_width: 100,
+                        wrapper_padding: 5,
+                        wrapper_color: "#ffffff",
+                        wrapper_opacity: "0.5",
+                        tmp: '<span class="tp-thumb-image"></span><span class="tp-thumb-title">{{title}}</span>',
+                        visibleAmount: 5,
+                        hide_onmobile: false,
+                        hide_onleave: false,
+                        direction: "horizontal",
+                        span: false,
+                        position: "inner",
+                        space: 5,
+                        h_align: "right",
+                        v_align: "bottom",
+                        h_offset: 20,
+                        v_offset: 50
+                    }
+                },
+
+				touchenabled:"on",
+				onHoverStop:"on",
+
+				swipe_velocity: 0.7,
+				swipe_min_touches: 1,
+				swipe_max_touches: 1,
+				drag_block_vertical: false,
+
+										parallax:"mouse",
+				parallaxBgFreeze:"on",
+				parallaxLevels:[7,4,3,2,5,4,3,2,1,0],
+
+				keyboardNavigation:"off",
+
+				navigationHAlign:"center",
+				navigationVAlign:"bottom",
+				navigationHOffset:0,
+				navigationVOffset:20,
+
+				soloArrowLeftHalign:"left",
+				soloArrowLeftValign:"center",
+				soloArrowLeftHOffset:20,
+				soloArrowLeftVOffset:0,
+
+				soloArrowRightHalign:"right",
+				soloArrowRightValign:"center",
+				soloArrowRightHOffset:20,
+				soloArrowRightVOffset:0,
+
+				shadow:0,
+				fullWidth:"off",
+				fullScreen:"on",
+
+				spinner:"spinner4",
+
+				stopLoop:"off",
+				stopAfterLoops:-1,
+				stopAtSlide:-1,
+
+				shuffle:"off",
+
+				autoHeight:"off",
+				forceFullWidth:"off",
+
+
+
+				hideThumbsOnMobile:"off",
+				hideNavDelayOnMobile:1500,
+				hideBulletsOnMobile:"off",
+				hideArrowsOnMobile:"off",
+				hideThumbsUnderResolution:0,
+
+				hideSliderAtLimit:0,
+				hideCaptionAtLimit:0,
+				hideAllCaptionAtLilmit:0,
+				startWithSlide:0,
+			});
+
+		});
+
+	</script><!-- END REVOLUTION SLIDER -->
+
+</body>
+</html>
